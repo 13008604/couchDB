@@ -17,7 +17,7 @@ public class VolleySingleton {
 	
 	public static VolleySingleton getInstance()
 	{
-		if( volley == null ){ volley = new VolleySingleton( ApplicationCouch.getApplicationCouchContext()); }
+		if( volley == null ){ volley = new VolleySingleton( ApplicationCouch.getApplicationCouchContext() ); }
 		return volley;
 	}
 	
